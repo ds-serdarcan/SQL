@@ -5,9 +5,9 @@ CREATE TABLE infinitysoft.sales_stockvalue_turnoverrate
 
     `period_date` Date,
 
-    `year` Int32,
+    `period_year` Int32,
 
-    `month` String,
+    `period_month` String,
 
     `currency` String,
 
