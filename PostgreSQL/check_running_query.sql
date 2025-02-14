@@ -11,4 +11,4 @@ select
 FROM
     pg_stat_activity
     WHERE
-    state = 'active';
+    state = 'active'
