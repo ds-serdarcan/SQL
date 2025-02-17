@@ -1,4 +1,3 @@
--- emlak.revy_data definition
 
 CREATE TABLE `ilan_veri` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
