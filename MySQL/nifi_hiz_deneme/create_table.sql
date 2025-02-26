@@ -6,4 +6,4 @@ CREATE TABLE `nifi_aktarim_hizi` (
   `sure_dakika` decimal(22,1) DEFAULT NULL,
   `satir_dakika` decimal(22,0) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=789172 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
