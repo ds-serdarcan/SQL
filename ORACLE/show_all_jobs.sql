@@ -5,4 +5,4 @@ SELECT job_name,
        last_run_duration,
        repeat_interval 
 FROM all_scheduler_jobs
-WHERE OWNER = 'OWNER_NAME'
+WHERE OWNER = 'OWNER_NAME';
