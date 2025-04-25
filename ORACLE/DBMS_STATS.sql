@@ -1,4 +1,7 @@
 EXEC DBMS_STATS.GATHER_DATABASE_STATS;
 
-EXEC DBMS_STATS.GATHER_TABLE_STATS('schema_name', 'your_table');
+
+BEGIN
+    DBMS_STATS.GATHER_TABLE_STATS('schema_name', 'your_table');
+END;
 
