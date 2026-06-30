@@ -12,3 +12,5 @@ SELECT event_time, user_host, argument
 FROM mysql.general_log 
 WHERE argument LIKE '%table%'
 ORDER BY event_time DESC;
+
+TRUNCATE TABLE mysql.general_log;
