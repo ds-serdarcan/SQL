@@ -32,3 +32,10 @@ SELECT
 FROM v$sql
 WHERE upper(sql_text) LIKE '%TMPGTTUNTITLEDVIEW2%'
 ORDER BY last_active_time DESC;
+
+--------------------
+SELECT 
+    DBMS_LOB.SUBSTR(sql_fulltext, 4000, 1)    AS sql_part1_varchar,
+    DBMS_LOB.SUBSTR(sql_fulltext, 4000, 25001) AS sql_part2_varchar
+FROM v$sql
+WHERE sql_id = '1mv5tv6gsyruy';
