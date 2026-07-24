@@ -39,3 +39,11 @@ SELECT
     DBMS_LOB.SUBSTR(sql_fulltext, 4000, 25001) AS sql_part2_varchar
 FROM v$sql
 WHERE sql_id = '1mv5tv6gsyruy';
+
+----------
+SELECT 
+    sql_id,
+    child_number,
+    DBMS_LOB.SUBSTR(sql_fulltext, 4000, 24000) AS sql_parca_4
+FROM v$sql 
+WHERE sql_id = 'g47jbgxywnhcm';
